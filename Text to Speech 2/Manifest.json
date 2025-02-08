@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Text to Speech Extension",
+    "version": "1.0",
+    "permissions": ["tts", "scripting", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "tts_icon.png"
+    }
+  }
+  
